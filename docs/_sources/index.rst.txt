@@ -3,9 +3,13 @@ COMET LiCS
 
 .. include:: ../README.rst
 
-.. toctree::
-   :hidden:
+.. only:: html
 
-   Home <self>
-   software_version_control
-   documentation
+  `PDF <COMET_LiCS.pdf>`_
+
+.. toctree::
+  :hidden:
+
+  Home <self>
+  software_version_control
+  documentation
