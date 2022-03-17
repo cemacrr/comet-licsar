@@ -3,7 +3,7 @@
 Documentation
 =============
 
-Currently, most COMET LiCS documentation is stored in a GitLab wiki at:
+Currently, most COMET LiCSAR documentation is stored in a GitLab wiki at:
 
   https://gitlab.com/comet_licsar/licsar_documentation/-/wikis/home.
 
@@ -11,7 +11,7 @@ This wiki contains quite a lot of useful information, and the GitLab wiki render
 
 The markdown format used by the wiki makes creating documentation fairly quick and simple.
 
-There is already interest in the group to further improve the documentation of the COMET LiCS activities and interest in the benefits which may be gained by making use of Sphinx and Read The Docs.
+There is already interest in the group to further improve the documentation of the COMET LiCSAR activities and interest in the benefits which may be gained by making use of Sphinx and Read The Docs.
 
 Sphinx And Read The Docs
 ------------------------

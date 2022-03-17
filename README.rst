@@ -1,1 +1,1 @@
-Notes regarding the COMET LiCS system.
+Notes regarding the COMET LiCSAR system.

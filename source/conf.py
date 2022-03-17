@@ -21,7 +21,7 @@ import datetime
 
 current_year = datetime.datetime.now().year
 
-project = 'COMET LiCS'
+project = 'COMET LiCSAR'
 copyright = '{0}, CEMAC'.format(current_year)
 author = 'CEMAC'
 email = 'cemac-support@leeds.ac.uk'

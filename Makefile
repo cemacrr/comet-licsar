@@ -24,4 +24,4 @@ all:
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	rsync -a --delete --exclude='.buildinfo' "$(BUILDDIR)/html/" "$(DOCDIR)/"
-	rsync -a --delete "$(BUILDDIR)/latex/cometlics.pdf" "$(DOCDIR)/COMET_LiCS.pdf"
+	rsync -a --delete "$(BUILDDIR)/latex/cometlicsar.pdf" "$(DOCDIR)/COMET_LiCSAR.pdf"

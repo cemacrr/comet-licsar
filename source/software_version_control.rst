@@ -3,12 +3,12 @@
 Software Version Control
 ========================
 
-The `GitLab`_ service is currently used for hosting `Git`_ repositories related to the operation of the COMET LiCS system.
+The `GitLab`_ service is currently used for hosting `Git`_ repositories related to the operation of the COMET LiCSAR system.
 
 Current GitLab Usage
 --------------------
 
-The COMET LiCS related material is stored within a GitLab *group* at:
+The COMET LiCSAR related material is stored within a GitLab *group* at:
 
   https://gitlab.com/comet_licsar.
 
@@ -35,7 +35,7 @@ The features offered at the non charged level of hosting by GitHub and GitLab ar
 * `GitLab Pricing`_ information
 * `Github Pricing`_ information
 
-In the past GitLab allowed private repositories at the non charged level, where as GitHub did not, and this could have been one of the main reasons why GitLab was originally chosen for the COMET LiCS repositories.
+In the past GitLab allowed private repositories at the non charged level, where as GitHub did not, and this could have been one of the main reasons why GitLab was originally chosen for the COMET LiCSAR repositories.
 
 Where GitLab allows repositories to be organised in `GitLab Groups`_, GitHub uses `GitHub Organisations`_, for example, the `Met Office GitHub Organisation`_.
 
@@ -51,7 +51,7 @@ We do not have any experience with the GitLab offering, but there are several me
 Hosting Considerations
 ----------------------
 
-As there is not a huge number of repositories currently located within the COMET LiCS GitLab group, and these would be fairly simple to migrate to GitHub, I believe it would be worth seriously consider migrating to GitHub.
+As there is not a huge number of repositories currently located within the COMET LiCSAR GitLab group, and these would be fairly simple to migrate to GitHub, I believe it would be worth seriously consider migrating to GitHub.
 
 Familiarity
 ~~~~~~~~~~~
@@ -65,11 +65,11 @@ GitLab works in a reasonably similar way to GitHub, and it is even possible to l
 Working With Existing Projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Some projects of significant interest to the COMET LiCS group, such as `LiCSBAS`_ and `ISCE`_ are hosted on GitHub.
+Some projects of significant interest to the COMET LiCSAR group, such as `LiCSBAS`_ and `ISCE`_ are hosted on GitHub.
 
 Working on GitHub would make it easier to work with the code hosted in these repositories.
 
-For example, there is a fork of the LiCSBAS repository hosted in the COMET LiCS GitLab group. If this was hosted on GitLab, it would be possible to track the differences between this fork and the original repository via the GitHub web interface, as well as easily contribute changes back to the upstream source.
+For example, there is a fork of the LiCSBAS repository hosted in the COMET LiCSAR GitLab group. If this was hosted on GitLab, it would be possible to track the differences between this fork and the original repository via the GitHub web interface, as well as easily contribute changes back to the upstream source.
 
 Integration With Third Party Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -98,12 +98,12 @@ The Pages feature on GitHub is much more simple to use and can be enabled with a
 Future Use Of Hosting Services
 ------------------------------
 
-There are opportunities for increased use of features offered by services such as GitLab and GitHub which could benefit the COMET LiCS code and its users.
+There are opportunities for increased use of features offered by services such as GitLab and GitHub which could benefit the COMET LiCSAR code and its users.
 
 This may include automated documentation building and deployment, or automated testing of code when changes are pushed to a Git repository.
 
 Some of these things may have an initial time cost, for example creating tests for the software, setting up the tasks to run the tests, and so on, but he benefits may be significant in the long run.
 
-It may also be worth considering how Git tags, software versioning and releases might be used effectively by the COMET LiCS project. For example, should there be a version of the software which directly corresponds to a version of the data set?
+It may also be worth considering how Git tags, software versioning and releases might be used effectively by the COMET LiCSAR project. For example, should there be a version of the software which directly corresponds to a version of the data set?
 
 Any additional software used as part of the processing, and scripts used to build these tools could also be stored in Git repositories, and this may allow easier duplication of the processing environment of different systems.

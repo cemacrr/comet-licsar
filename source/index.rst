@@ -1,11 +1,11 @@
-COMET LiCS
-==========
+COMET LiCSAR
+============
 
 .. include:: ../README.rst
 
 .. only:: html
 
-  `PDF <COMET_LiCS.pdf>`_
+  `PDF <COMET_LiCSAR.pdf>`_
 
 .. toctree::
   :hidden:
