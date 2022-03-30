@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Third Party Software &mdash; COMET LiCSAR  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Documentation" href="documentation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> COMET LiCSAR
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="software_version_control.html">Software Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Third Party Software</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#cemac-arc-software">CEMAC ARC Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#jasmin-considerations">JASMIN Considerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build-scripts">Build Scripts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation-directories">Installation Directories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Environment Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#anaconda-considerations">Anaconda Considerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#linking-software-versions-with-data-versions">Linking Software Versions With Data Versions</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">COMET LiCSAR</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Third Party Software</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/third_party_software.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="third-party-software">
+<h1>Third Party Software<a class="headerlink" href="#third-party-software" title="Permalink to this headline"></a></h1>
+<p>On the JASMIN systems third party software used for the LiCSAR processing is stored within:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">gws</span><span class="o">/</span><span class="n">smf</span><span class="o">/</span><span class="n">j04</span><span class="o">/</span><span class="n">nceo_geohazards</span>
+</pre></div>
+</div>
+<p>This is SSD storage (<a class="reference external" href="https://help.jasmin.ac.uk/article/4700-understanding-new-jasmin-storage/">JASMIN Storage Types</a>), which is more suitable for storing software than the slower larger volume storage areas, though the space is much more limited.</p>
+<p>At present this area is 100G in size:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Size</span>  <span class="n">Used</span> <span class="n">Avail</span> <span class="n">Use</span><span class="o">%</span> <span class="n">Mounted</span> <span class="n">on</span>
+<span class="mi">100</span><span class="n">G</span>   <span class="mi">55</span><span class="n">G</span>   <span class="mi">46</span><span class="n">G</span>  <span class="mi">55</span><span class="o">%</span> <span class="o">/</span><span class="n">gws</span><span class="o">/</span><span class="n">smf</span><span class="o">/</span><span class="n">j04</span><span class="o">/</span><span class="n">nceo_geohazards</span>
+</pre></div>
+</div>
+<p>Software includes <a class="reference external" href="https://www.gamma-rs.ch/">GAMMA</a>, <a class="reference external" href="https://github.com/yumorishita/LiCSBAS/">LiCSBAS</a>, <a class="reference external" href="https://step.esa.int/main/snap-supported-plugins/snaphu/">SNAPHU</a>, an <a class="reference external" href="https://www.anaconda.com/">Anaconda</a> environment and various other tools.</p>
+<p>There is some use of <a class="reference external" href="https://modules.readthedocs.io/">Environment Modules</a> for loading and unloading of software, and various versions of some packages are available.</p>
+<div class="section" id="cemac-arc-software">
+<h2>CEMAC ARC Software<a class="headerlink" href="#cemac-arc-software" title="Permalink to this headline"></a></h2>
+<p>CEMAC manage various software installations on the ARC systems in Leeds, and could be a useful example to show some ideas which might help with managing the LiCSAR software.</p>
+<p>The files are all within:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">software</span>
+</pre></div>
+</div>
+<p>The software is built via build scripts within:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">build</span>
+</pre></div>
+</div>
+<p>This is also where the required installation sources are stored.</p>
+<p>The software is installed within the directories:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">apps</span>
+<span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">compilers</span>
+<span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">libraries</span>
+</pre></div>
+</div>
+<p>This directory structure was set up to match the structure used by the system software on the ARC systems, and may not be required for the LiCSAR software, where a single installation directory may be more suitable.</p>
+<p>The Environment Modules files are stored within:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">modulefiles</span>
+</pre></div>
+</div>
+<p>The build scripts and module files are all stored in a GitHub repository at:</p>
+<blockquote>
+<div><p><a class="reference external" href="https://github.com/cemac/arc/">https://github.com/cemac/arc/</a></p>
+</div></blockquote>
+<p>An individual can add to their login files (<code class="docutils literal notranslate"><span class="pre">~/.bashrc</span></code>):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">[</span> <span class="o">-</span><span class="n">r</span> <span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">cemac</span><span class="o">.</span><span class="n">sh</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span>
+  <span class="o">.</span> <span class="o">/</span><span class="n">nobackup</span><span class="o">/</span><span class="n">cemac</span><span class="o">/</span><span class="n">cemac</span><span class="o">.</span><span class="n">sh</span>
+<span class="n">fi</span>
+</pre></div>
+</div>
+<p>The software is then available for use via the <code class="docutils literal notranslate"><span class="pre">module</span></code> command.</p>
+</div>
+<div class="section" id="jasmin-considerations">
+<h2>JASMIN Considerations<a class="headerlink" href="#jasmin-considerations" title="Permalink to this headline"></a></h2>
+<p>Unlike the ARC systems at Leeds, where all machines related to the system (e.g. <code class="docutils literal notranslate"><span class="pre">arc4</span></code>) are all more or less the same and run the same version of the operating system, the systems available to users at JASMIN differ.</p>
+<p>In the past, the machines have been mixture of different versions of the operating system and this could happen again in the future. It may therefore be necessary to include the operating system version in installation directory / module loading paths, for example, if compiling GAMMA from source on a CentOS / RedHat 7 machine, it may be sensible to install to a path similar to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">gws</span><span class="o">/</span><span class="n">smf</span><span class="o">/</span><span class="n">j04</span><span class="o">/</span><span class="n">nceo_geohazards</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">el7</span><span class="o">/</span><span class="n">gamma</span><span class="o">/</span><span class="mi">20220101</span>
+</pre></div>
+</div>
+<p>If JASMIN machines were upgraded machines to a newer version of the operating system, or a different operating system altogether, the software could also be built for that operating system, and the process which sets up the <code class="docutils literal notranslate"><span class="pre">MODULEPATH</span></code> for a user could automatically adjust settings based on the machine in use.</p>
+<p>Another thing to be aware of at JASMIN is that some machines don’t have access to the network storage areas (such as the login nodes) and may have to be treated differently. Again, this could be handled by the process which sets up the Environment Modules variables, by checking if things are readable or checking the system host name.</p>
+</div>
+<div class="section" id="build-scripts">
+<h2>Build Scripts<a class="headerlink" href="#build-scripts" title="Permalink to this headline"></a></h2>
+<p>Keeping track of the installation process for each version of each piece of software can be incredibly valuable, not only for keeping a useful record of how the software was built and saving time when installing an updated version of a piece of software, it may also make it easier to deploy the software on a new system in the future if required.</p>
+<p>Storing the source files with the build scripts helps to keep all required files in the same place, and can also be very useful if rebuilding software is required in the future, as older installation / source files can sometimes become unavailable.</p>
+<p>The build process for some software may be as simple as extracting some files and moving them in to place, or it may be a more complex process of building from source and building various dependencies, but it is usually possible to script the process in some way.</p>
+</div>
+<div class="section" id="installation-directories">
+<h2>Installation Directories<a class="headerlink" href="#installation-directories" title="Permalink to this headline"></a></h2>
+<p>Ideally, once a particular version of a piece of software has been installed, it should be made read only, never changed, and kept indefinitely.</p>
+<p>If a particular version of a piece of software needed to be rebuilt or changed for any reason, a new <em>build version</em> could be created.</p>
+<p>For example, if GAMMA/20220101 was already installed, but a rebuild of this version was required, for example to apply a patch, the updated version could be built and installed in separate directories, so you could end up with something like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">gws</span><span class="o">/</span><span class="n">smf</span><span class="o">/</span><span class="n">j04</span><span class="o">/</span><span class="n">nceo_geohazards</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">el7</span><span class="o">/</span><span class="n">gamma</span><span class="o">/</span><span class="mi">20220101</span><span class="o">/</span><span class="mi">1</span>
+<span class="o">/</span><span class="n">gws</span><span class="o">/</span><span class="n">smf</span><span class="o">/</span><span class="n">j04</span><span class="o">/</span><span class="n">nceo_geohazards</span><span class="o">/</span><span class="n">software</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">el7</span><span class="o">/</span><span class="n">gamma</span><span class="o">/</span><span class="mi">20220101</span><span class="o">/</span><span class="mi">2</span>
+</pre></div>
+</div>
+<p>Where <code class="docutils literal notranslate"><span class="pre">1</span></code> and <code class="docutils literal notranslate"><span class="pre">2</span></code> are the build versions.</p>
+<p>There are different ways in which loading software via Environment Modules could be handled, and it would be possible for a user to <code class="docutils literal notranslate"><span class="pre">module</span> <span class="pre">load</span> <span class="pre">gamma</span></code> and always get the latest version, while also being able to load previous versions by specifying the version of the software.</p>
+<p>As the space in the software area is limited, older versions of different pieces of software could be moved to the slower / larger volume storage and replaced with symlinks, so the older versions are still accessible if and when required.</p>
+</div>
+<div class="section" id="id1">
+<h2>Environment Modules<a class="headerlink" href="#id1" title="Permalink to this headline"></a></h2>
+<p>Keeping Environment Module files tidy and easy to understand and use isn’t always simple, taking a look at the modules provided by default on the JASMIN systems will show how things can become messy and difficult to use.</p>
+<p>For any software which has multiple versions, it is possible to set the default version by placing a <code class="docutils literal notranslate"><span class="pre">.version</span></code> file in the directory.</p>
+<p>For example, a directory containing module files for GAMMA may contain:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">20210101</span>
+<span class="mi">20220101</span>
+<span class="o">.</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>Where the <code class="docutils literal notranslate"><span class="pre">.version</span></code> file contains:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#%Module1.0</span>
+<span class="nb">set</span> <span class="n">ModulesVersion</span> <span class="s2">&quot;20210101&quot;</span>
+</pre></div>
+</div>
+<p>So when <code class="docutils literal notranslate"><span class="pre">module</span> <span class="pre">load</span> <span class="pre">gamma</span></code> is run, the <code class="docutils literal notranslate"><span class="pre">20210101</span></code> version is loaded by default.</p>
+<p>It is also possible to create Environment Modules named <code class="docutils literal notranslate"><span class="pre">old</span></code>, <code class="docutils literal notranslate"><span class="pre">testing</span></code>, or similar, and when these modules are loaded, the <code class="docutils literal notranslate"><span class="pre">MODULEPATH</span></code> variable is expanded to include older or testing versions of software. This can help keep the default list of software tidy, while allowing access to additional versions of software.</p>
+</div>
+<div class="section" id="anaconda-considerations">
+<h2>Anaconda Considerations<a class="headerlink" href="#anaconda-considerations" title="Permalink to this headline"></a></h2>
+<p>Creating a list of installed packages in an Anaconda environment is quite straight forward, and is a useful way of keeping a record of installed packages.</p>
+<p>In theory, it should be possible to use this list to create an identical environment at a later date, but in practice this is rarely simple and creation of a new environment fails.</p>
+<p>When creating an environment, it is often best to specify names of required packages, create the environment and then test everything works as required.</p>
+<p>The <a class="reference external" href="https://github.com/mamba-org/mamba/">Mamba</a> tool is a “faster” version of the <code class="docutils literal notranslate"><span class="pre">conda</span></code> command, and can greatly reduce the time required to set up a new environment.</p>
+<p>Creation of a new Anaconda installation may be similar to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>wget -O ${MINICONDA_FILE} \
+  &quot;https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh&quot;
+chmod 755 ${MINICONDA_FILE}
+./${MINICONDA_FILE} -b -p ${INSTALL_DIR}
+\rm ${MINICONDA_FILE}
+. ${INSTALL_DIR}/etc/profile.d/conda.sh
+conda update -y -n base -c defaults conda
+conda install -y -n base -c conda-forge mamba
+mamba install matplotlib notebook h5py gdal==2.1.0
+</pre></div>
+</div>
+<p>In this example, <code class="docutils literal notranslate"><span class="pre">gdal</span></code> version <code class="docutils literal notranslate"><span class="pre">2.1.0</span></code> is explicitly required, whereas other requested packages should be the most recent available that don’t conflict with any other requested packages.</p>
+</div>
+<div class="section" id="linking-software-versions-with-data-versions">
+<h2>Linking Software Versions With Data Versions<a class="headerlink" href="#linking-software-versions-with-data-versions" title="Permalink to this headline"></a></h2>
+<p>At present, I don’t believe the LiCSAR outputs have any kind of version information.</p>
+<p>One step towards this may be creating versions of the LiCSAR software tools.</p>
+<p>For example, the LiCSAR tools version 1.0.0 may include:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">condalics</span><span class="o">/</span><span class="mi">20220101</span>
+<span class="n">gamma</span><span class="o">/</span><span class="mi">20220101</span>
+<span class="n">licsbas</span><span class="o">/</span><span class="mf">1.5.11</span>
+</pre></div>
+</div>
+<p>These packages could be loaded by creating a <code class="docutils literal notranslate"><span class="pre">LiCSAR</span></code> (or similarly named) Environment Modules file.</p>
+<p>It could also be possible that in the future the version of the LiCSAR tools is directly linked to the version of the output data, if desired. This could mean that version <code class="docutils literal notranslate"><span class="pre">x</span></code> of the LiCSAR outputs were created with version <code class="docutils literal notranslate"><span class="pre">x</span></code> of the LiCSAR tools.</p>
+<p>A good, and hopefully simple, first step would be to record the versions of the software used to create data when generating new LiCSAR output files, for example in the output directory for a processed pair of interferograms, some kind of meta data file in plain text, JSON, both or something else, could be created to include software details, along with any other required metai data.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="documentation.html" class="btn btn-neutral float-left" title="Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, CEMAC.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

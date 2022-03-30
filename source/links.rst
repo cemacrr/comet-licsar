@@ -1,4 +1,7 @@
+.. _Anaconda: https://www.anaconda.com/
 .. _Binder: https://mybinder.org/
+.. _Environment Modules: https://modules.readthedocs.io/
+.. _GAMMA: https://www.gamma-rs.ch/
 .. _Git: https://git-scm.com/
 .. _GitHub Education: https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount/
 .. _GitHub: https://github.com/
@@ -15,10 +18,12 @@
 .. _GitLab Pricing: https://about.gitlab.com/pricing/
 .. _GitLab Wiki: https://docs.gitlab.com/ee/user/project/wiki/
 .. _ISCE: https://github.com/isce-framework/
+.. _JASMIN Storage Types: https://help.jasmin.ac.uk/article/4700-understanding-new-jasmin-storage/
 .. _licsar_documentation: https://gitlab.com/comet_licsar/licsar_documentation/
 .. _licsar_framebatch: https://gitlab.com/comet_licsar/licsar_framebatch/
 .. _licsar_proc: https://gitlab.com/comet_licsar/licsar_proc/
 .. _LiCSBAS: https://github.com/yumorishita/LiCSBAS/
+.. _Mamba: https://github.com/mamba-org/mamba/
 .. _Matplotlib Documentation: https://matplotlib.org/stable/
 .. _Met Office GitHub Organisation: https://github.com/MetOffice/
 .. _NCAS UM Training:  https://ncas-cms.github.io/um-training/
@@ -29,6 +34,7 @@
 .. _RST Directives: https://docutils.sourceforge.io/docs/ref/rst/directives.html
 .. _RST Markup Specification: https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 .. _Software Carpentry Git Lesson: https://swcarpentry.github.io/git-novice/
+.. _SNAPHU: https://step.esa.int/main/snap-supported-plugins/snaphu/
 .. _Sphinx Autodoc Documentation: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
 .. _Sphinx Examples: https://www.sphinx-doc.org/en/master/examples.html
 .. _Sphinx: https://www.sphinx-doc.org/

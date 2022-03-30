@@ -10,7 +10,7 @@ Current GitLab Usage
 
 The COMET LiCSAR related material is stored within a GitLab *group* at:
 
-  https://gitlab.com/comet_licsar.
+  https://gitlab.com/comet_licsar
 
 There are currently 11 repositories, 5 of which are publicly visible.
 
